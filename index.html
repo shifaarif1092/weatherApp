@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+   h1
+  {
+  	font-size:4rem;
+  	font-family:sans-serif;
+  	background:linear-gradient(to top,#FFF200,#FC46AA);
+  	-webkit-background-clip:text;
+  	-webkit-text-fill-color:transparent;
+  	padding:0.5rem;
+    text-align:center;
+  }
+    form
+   {
+   	width:65%;
+   	margin:0 auto;
+    line-height:1.5;
+   }
+   label
+   {
+    font-family:sans-serif;
+   	font-size:1.5rem;
+   	opacity:0.8;
+    margin-bottom: 1rem;
+   }
+   input
+   {
+   	width:100%;
+   	padding:1rem;
+   	margin-bottom:10px;
+   	border:solid;
+   	border-color:#FFF200;
+   	outline-color:#fd57bf;
+   }
+   button
+   {
+   	width:initial;
+   	background-color:#FC46AA;
+   	color:#eee;
+   	padding:1rem 2rem;
+   	border-radius:0.8rem;
+   	cursor:pointer;
+   	transition:background-color 650ms;
+   }
+   button:hover
+   {
+   	border:solid;
+   	border-color:#FC46AA;
+   	color:#221e3f;
+   	background-color: #ffe838;
+   }
+    </style>
+  </head>
+
+  <body>
+    <h1>Weather App</h1>
+    <form  action="/" method="post">
+    <label for="city">City Name:</label>
+    <input id="city" type="text" name="cityName" placeholder="Enter name of the city....">
+    <button type="submit">Go</button>
+   </form>
+  </body>
+</html>
